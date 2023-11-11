@@ -237,19 +237,7 @@ const projects = [
     image: deer,
     link: 'https://deer-fitness.vercel.app/',
   },
-  {
-    name: 'Gotcha Store',
-    description:
-      "In This Application You Can view all the products , add to cart , checkout ,it has admin panel to control every thing like creating products editing them ,  and more , It's also very responsive Design",
-    tags: [
-      {
-        name: 'angular',
-        color: 'orange-text-gradient',
-      },
-    ],
-    image: gotcha,
-    link: 'https://gotcha-store.vercel.app/',
-  },
+
   {
     name: 'Electronics Store',
     description:
@@ -274,6 +262,19 @@ const projects = [
     ],
     image: store,
     link: 'https://electronicz-store.vercel.app/',
+  },
+  {
+    name: 'Gotcha Store',
+    description:
+      "In This Application You Can view all the products , add to cart , checkout ,it has admin panel to control every thing like creating products editing them ,  and more , It's also very responsive Design",
+    tags: [
+      {
+        name: 'angular',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: gotcha,
+    link: 'https://gotcha-store.vercel.app/',
   },
   {
     name: 'Netflix Clone',
