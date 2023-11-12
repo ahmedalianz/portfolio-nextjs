@@ -10,6 +10,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Ahmed Afify | Portfolio',
   applicationName: 'Ahmed Afify | Portfolio',
+
   description:
     'Explore the work and skills of Ahmed Afify in web development, design, and more.',
   keywords:
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
     description:
       'Explore the work and skills of Ahmed Afify in web development, design, and more.',
     images: [{url: 'https://avatars.githubusercontent.com/u/87319048?v=4'}],
+    url: 'https://ahmedafify.vercel.app/',
   },
 };
 
