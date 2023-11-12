@@ -37,9 +37,6 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        {/* <p className={styles.'sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'}>Introduction</p> */}
-        <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
-
         <h2
           className={
             'text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'
