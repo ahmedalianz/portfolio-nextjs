@@ -292,22 +292,6 @@ const projects = [
   },
 
   {
-    name: 'Nike',
-    image: nike,
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwindcss',
-        color: 'blue-text-gradient',
-      },
-    ],
-    link: 'https://nike-sooty.vercel.app/',
-    description: 'Landing Page Nike Clone',
-  },
-  {
     name: 'Pizza Ordering App',
     image: pizza,
     tags: [
@@ -390,7 +374,22 @@ const projects = [
     image: metaversus,
     link: 'https://metaversus-wine.vercel.app/',
   },
-
+  {
+    name: 'Nike',
+    image: nike,
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'blue-text-gradient',
+      },
+    ],
+    link: 'https://nike-sooty.vercel.app/',
+    description: 'Landing Page Nike Clone',
+  },
   {
     name: 'Agency',
     image: agency,
