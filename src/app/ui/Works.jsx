@@ -87,7 +87,7 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  const [filteredWorks, setFilteredWorks] = useState([]);
+  const [filteredWorks, setFilteredWorks] = useState(projects);
   const [activeFilter, setActiveFilter] = useState('All');
   const handleWorkFilter = item => {
     setActiveFilter(item);
