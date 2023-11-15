@@ -60,6 +60,14 @@ export const navLinks = [
     title: 'Contact',
   },
 ];
+export const categories = [
+  'Landing Page',
+  'Angular',
+  'Full Stack',
+  'Mobile App',
+  'React',
+  'All',
+];
 
 const services = [
   {
@@ -179,6 +187,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['Mobile App'],
     image: arc,
     android_link: 'https://apps.apple.com/us/app/alrajhi-capital/id6443600368',
     ios_link:
@@ -187,6 +196,8 @@ const projects = [
   {
     name: 'The Dentist',
     image: dentist,
+    categories: ['React'],
+
     tags: [
       {
         name: 'react',
@@ -199,6 +210,8 @@ const projects = [
   {
     name: 'Eagle Interior Design',
     description: 'A landing page for Eagle Interior Design',
+    categories: ['Full Stack', 'React'],
+
     tags: [
       {
         name: 'react',
@@ -235,6 +248,8 @@ const projects = [
         color: 'green-text-gradient',
       },
     ],
+    categories: ['Full Stack', 'React'],
+
     image: deer,
     link: 'https://deer-fitness.vercel.app/',
   },
@@ -261,6 +276,8 @@ const projects = [
         color: 'green-text-gradient',
       },
     ],
+    categories: ['Full Stack', 'React'],
+
     image: store,
     link: 'https://electronicz-store.vercel.app/',
   },
@@ -274,6 +291,8 @@ const projects = [
         color: 'orange-text-gradient',
       },
     ],
+    categories: ['Full Stack', 'Angular'],
+
     image: gotcha,
     link: 'https://gotcha-store.vercel.app/',
   },
@@ -287,6 +306,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['React'],
+
     image: netflix,
     link: 'https://netflex-nine.vercel.app/',
   },
@@ -304,6 +325,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['React'],
+
     link: 'https://pizza-sooty.vercel.app/',
     description:
       "In This Application You Can Order Pizza , You can add Topping , Add To Cart , Checkout ,you can pay cash or via paypal,the admin can contol products & orders create new Pizzas and more , It Supports Two Languages (English & Arabic),  It's also very responsive Design",
@@ -330,6 +353,8 @@ const projects = [
         color: 'green-text-gradient',
       },
     ],
+    categories: ['React', 'Full Stack'],
+
     link: 'https://sprout-social.vercel.app/',
     description:
       "In This Application You Can Sign up or login to your account , You can create a post , like it , comment on it ,search for people,view & Edit Your Profile , and more , It's also very responsive Design",
@@ -356,6 +381,8 @@ const projects = [
       },
     ],
     image: nft1,
+    categories: ['React', 'Mobile App', 'Landing Page'],
+
     link: 'https://nftshowcase-market.vercel.app/',
   },
   {
@@ -371,6 +398,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['Landing Page', 'React'],
+
     image: metaversus,
     link: 'https://metaversus-wine.vercel.app/',
   },
@@ -387,6 +416,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['Landing Page', 'React'],
+
     link: 'https://nike-sooty.vercel.app/',
     description: 'Landing Page Nike Clone',
   },
@@ -404,6 +435,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['Landing Page', 'React'],
+
     description: 'Landing Page',
   },
   {
@@ -420,6 +453,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['Landing Page', 'React'],
+
     description: 'Landing Page',
   },
   {
@@ -432,6 +467,8 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+    categories: ['React'],
+
     description:
       "In This Application You Can you can create any user by just name so lists are just for your username, Every username has his own lists & able to : Create a New list,Add List Items,Navigate Between Lists,Share Any List By Several Means eg:facebook,whatsapp,direct link,  It's also very responsive Design",
   },
