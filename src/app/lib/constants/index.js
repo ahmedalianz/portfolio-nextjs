@@ -34,6 +34,7 @@ export const eagle = importImage('projects/eagle.png');
 export const nft1 = importImage('projects/nft/1.png');
 export const gotcha = importImage('projects/gotcha/1.png');
 export const store = importImage('projects/store/1.png');
+export const nike = importImage('projects/nike.png');
 export const netflix = importImage('projects/netflix/6.png');
 export const dentist = importImage('projects/dentist/5.png');
 export const pizza = importImage('projects/pizza/1.png');
@@ -290,6 +291,22 @@ const projects = [
     link: 'https://netflex-nine.vercel.app/',
   },
 
+  {
+    name: 'Nike',
+    image: nike,
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'blue-text-gradient',
+      },
+    ],
+    link: 'https://nike-sooty.vercel.app/',
+    description: 'Landing Page Nike Clone',
+  },
   {
     name: 'Pizza Ordering App',
     image: pizza,
