@@ -98,7 +98,7 @@ const Works = () => {
     }
   };
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p
           className={
@@ -144,7 +144,7 @@ const Works = () => {
           <ProjectCard key={project.name} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
