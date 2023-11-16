@@ -33,6 +33,7 @@ const Hero = () => {
         width={1920}
         height={1080}
         loading="lazy"
+        className="max-md:bottom-0 max-md:absolute"
       />
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
