@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Ahmed Afify | Portfolio',
     description:
       'Explore the work and skills of Ahmed Afify in web development, design, and more.',
-    images: [{url: '/public/profile-dark.png'}],
+    images: [{url: '/hero/profile-dark.png'}],
     url: 'https://ahmedafify.vercel.app/',
   },
 };
