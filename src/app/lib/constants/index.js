@@ -35,11 +35,11 @@ export const nft1 = importImage('projects/nft/1.png');
 export const gotcha = importImage('projects/gotcha/1.png');
 export const store = importImage('projects/store/1.png');
 export const nike = importImage('projects/nike.png');
-export const hiLink = importImage('projects/hiLink.png');
 export const netflix = importImage('projects/netflix/6.png');
 export const dentist = importImage('projects/dentist/5.png');
 export const pizza = importImage('projects/pizza/1.png');
 export const sprout = importImage('projects/sprout/1.png');
+export const airbnb = importImage('projects/airbnb.png');
 export const deer = importImage('projects/deer.png');
 export const shareable = importImage('projects/shareable.png');
 export const easy = importImage('projects/easy.png');
@@ -332,28 +332,7 @@ const projects = [
     description:
       "In This Application You Can Order Pizza , You can add Topping , Add To Cart , Checkout ,you can pay cash or via paypal,the admin can contol products & orders create new Pizzas and more , It Supports Two Languages (English & Arabic),  It's also very responsive Design",
   },
-  {
-    name: 'hiLink',
-    image: hiLink,
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwindcss',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-    ],
-    categories: ['Landing Page', 'React'],
 
-    link: 'https://camptraveler-flame.vercel.app/',
-    description: 'Landing Page HiLink',
-  },
   {
     name: 'Sprout Social',
     image: sprout,
@@ -403,9 +382,21 @@ const projects = [
       },
     ],
     image: nft1,
-    categories: ['React', 'Mobile App', 'Landing Page'],
+    categories: ['React', 'Landing Page'],
 
     link: 'https://nftshowcase-market.vercel.app/',
+  },
+  {
+    name: 'Airbnb Clone',
+    description: 'Mobile Application Airbnb Clone',
+    tags: [
+      {
+        name: 'react-native',
+        color: 'blue-text-gradient',
+      },
+    ],
+    categories: ['Mobile App'],
+    image: airbnb,
   },
   {
     name: 'Metaversus',
