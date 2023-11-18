@@ -390,6 +390,7 @@ const projects = [
     ],
     description: 'Landing Page',
   },
+
   {
     name: 'EasyBank',
     image: easy,
