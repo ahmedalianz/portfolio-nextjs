@@ -398,6 +398,7 @@ const projects = [
     categories: ['Mobile App'],
     image: airbnb,
   },
+
   {
     name: 'Metaversus',
     description: 'Landing Page',
