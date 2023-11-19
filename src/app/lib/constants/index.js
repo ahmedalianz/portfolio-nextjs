@@ -355,7 +355,6 @@ const projects = [
       },
     ],
     categories: ['React', 'Full Stack'],
-
     link: 'https://sprout-social.vercel.app/',
     description:
       "In This Application You Can Sign up or login to your account , You can create a post , like it , comment on it ,search for people,view & Edit Your Profile , and more , It's also very responsive Design",
