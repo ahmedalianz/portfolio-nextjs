@@ -148,9 +148,14 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'July 2022 - Present',
     points: [
-      'Developing and maintaining Mobile application using React Native',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Added Onboarding flow for new users & fixed it's issues",
+      'KYC / Account Opening (9 Steps)',
+      'New User Registeration',
+      'Implemented Market Chart in multiple sections of the app',
+      "Added Murabha Account Opening flow & fixed it's issues",
+      'Upload / Download Documents .',
+      'Led a squad of 3 developers as their reviewer/supporter for a month.',
+      'Performed field-level analyses with integration and business teams, resulting in the ability to provide better user story acceptance.',
     ],
   },
   {
