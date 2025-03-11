@@ -37,7 +37,6 @@ export const store = importImage('projects/store/1.png');
 export const nike = importImage('projects/nike.png');
 export const netflix = importImage('projects/netflix/6.png');
 export const dentist = importImage('projects/dentist/5.png');
-export const pizza = importImage('projects/pizza/1.png');
 export const sprout = importImage('projects/sprout/1.png');
 export const airbnb = importImage('projects/airbnb.png');
 export const deer = importImage('projects/deer.png');
@@ -62,12 +61,12 @@ export const navLinks = [
   },
 ];
 export const categories = [
+  'All',
   'Landing Page',
   'Angular',
   'Full Stack',
   'Mobile App',
   'React',
-  'All',
 ];
 
 const services = [
@@ -316,26 +315,6 @@ const projects = [
 
     image: netflix,
     link: 'https://netflex-nine.vercel.app/',
-  },
-
-  {
-    name: 'Pizza Ordering App',
-    image: pizza,
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-    ],
-    categories: ['React'],
-
-    link: 'https://pizza-sooty.vercel.app/',
-    description:
-      "In This Application You Can Order Pizza , You can add Topping , Add To Cart , Checkout ,you can pay cash or via paypal,the admin can contol products & orders create new Pizzas and more , It Supports Two Languages (English & Arabic),  It's also very responsive Design",
   },
 
   {
