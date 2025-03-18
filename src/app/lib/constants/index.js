@@ -2,7 +2,7 @@ const importImage = path => {
   return require(`../assets/${path}`).default;
 };
 // icons
-export const web = importImage('icons/web.png');
+export const web = importImage('icons/web.webp');
 export const logo = importImage('icons/logo.png');
 export const mobile = importImage('icons/mobile.png');
 export const link = importImage('icons/link.png');
@@ -28,6 +28,7 @@ export const typescript = importImage('tech/typescript.png');
 export const ejada = importImage('company/ejada.png');
 export const mostaql = importImage('company/mostaql.png');
 export const websquids = importImage('company/websquids.png');
+export const unifi = importImage('company/unifi.webp');
 // projects
 export const arc = importImage('projects/arc.webp');
 export const eagle = importImage('projects/eagle.png');
@@ -43,8 +44,9 @@ export const deer = importImage('projects/deer.png');
 export const shareable = importImage('projects/shareable.png');
 export const easy = importImage('projects/easy.png');
 export const agency = importImage('projects/agency.png');
+export const alef = importImage('projects/alef.png');
+export const alef2 = importImage('projects/alef2.png');
 export const metaversus = importImage('projects/metaversus.png');
-// };
 
 export const navLinks = [
   {
@@ -60,7 +62,7 @@ export const navLinks = [
     title: 'Contact',
   },
 ];
-export const categories = [
+const categories = [
   'All',
   'Landing Page',
   'Angular',
@@ -79,7 +81,6 @@ const services = [
     icon: mobile,
   },
 ];
-
 const technologies = [
   {
     name: 'HTML 5',
@@ -147,14 +148,29 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'July 2022 - Present',
     points: [
-      "Added Onboarding flow for new users & fixed it's issues",
-      'KYC / Account Opening (9 Steps)',
-      'New User Registeration',
-      'Implemented Market Chart in multiple sections of the app',
-      "Added Murabha Account Opening flow & fixed it's issues",
-      'Upload / Download Documents .',
-      'Led a squad of 3 developers as their reviewer/supporter for a month.',
-      'Performed field-level analyses with integration and business teams, resulting in the ability to provide better user story acceptance.',
+      'Designed and implemented the KYC and Account Opening process.',
+      'Developed and integrated the New User Registration module.',
+      'Implemented Different Themes for the Application like Ramadan Theme, Foundation Day, and National Day.',
+      'Enhanced the Murabha Account Opening flow.',
+      'Enabled Document Upload/Download functionality.',
+      'Revamped the Create & Update KYC process.',
+      'Spearheaded the implementation of key features such as "What’s New," "HIVE Survey," "Crowd Funding product," and "Family Onboarding,".',
+      'Mentored and led a squad of 3 developers, providing code reviews, technical guidance, and support to ensure high-quality deliverables and foster team growth.',
+    ],
+  },
+  {
+    title: 'Senior Frontend Developer',
+    company_name: 'Unifi Solutions',
+    icon: unifi,
+    iconBg: '#E6DEDD',
+    date: 'Apr 2023 - July 2023',
+    points: [
+      'Developed and maintained the Alef IoT Portal (cloud.alefiot.io), a comprehensive platform for managing IoT products, ensuring seamless functionality and user experience.',
+      'Integrated the Ignite Meter App with its full suite of features, enhancing the platform’s capabilities for IoT device management.',
+      'Implemented a Playback Map for geo-navigation and area marking on layouts, enabling users to visualize and analyze IoT device data effectively.',
+      'Resolved Jira-raised issues, improving system stability and user satisfaction.',
+      'Contributed to the Alef IoT Marketplace (store.alefiot.io), an e-commerce platform for selling IoT products, by fixing UI issues and enhancing the overall user experience.',
+      'Added a universal cookie mechanism to synchronize login sessions between the IoT Portal and Marketplace, streamlining user access across platforms.',
     ],
   },
   {
@@ -199,6 +215,37 @@ const projects = [
       'https://play.google.com/store/apps/details?id=com.alrajhicapital&hl=en_US',
   },
   {
+    name: 'Alef IOT Portal',
+    image: alef,
+    categories: ['React'],
+
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+    ],
+    description:
+      'Alef IoT Portal is a comprehensive platform for managing IoT products',
+    link: 'https://cloud.alefiot.io',
+  },
+  {
+    name: 'Alef IOT MarketPlace',
+    image: alef2,
+    categories: ['React'],
+
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+    ],
+    link: 'https://store.alefiot.io/en/',
+
+    description:
+      'Alef IoT MarketPlace is a comprehensive platform for Purchasing IoT products',
+  },
+  {
     name: 'The Dentist',
     image: dentist,
     categories: ['React'],
@@ -209,6 +256,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
+
     description:
       "This Application is just for preview purposes, You Can view all the doctors ,search with specific place ,sign up ,login,and dashboard to each doctor that can control his bookings, it also comes with dynamic content meaning that the admin can Customize the pages as he likes , and more ,it will be Supporting Arabic Language, It's also very responsive Design",
   },
@@ -471,4 +519,4 @@ const projects = [
   },
 ];
 
-export {services, technologies, experiences, projects};
+export {services, categories, technologies, experiences, projects};

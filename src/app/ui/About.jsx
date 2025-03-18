@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         {
-          "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Next.js, and React Native. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+          "Software Developer with 5 years of experience specializing in building intuitive and responsive web and mobile applications. Originally an Electrical Engineer, I discovered a passion for software development and made a successful transition, bringing strong problem-solving skills and a commitment to delivering high-quality code. Proficient in HTML, CSS3, JavaScript, React, and React Native, with additional exposure to Angular and modern front-end frameworks. Known for effective collaboration, adaptability, and a dedication to creating user-centered, maintainable solutions. Let's work together to bring your ideas to life!"
         }
       </motion.p>
 
